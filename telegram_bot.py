@@ -4,7 +4,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 from ml_bot.app.train import train_model
 from ml_bot.app.predict import predict
 
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"  # Replace this with your real bot token
+TOKEN = "8454856306:AAHTouyuu4ii1xFQSMkzSbv51fTlFnNtwJo"  # Replace this with your real bot token
 
 keyboard = [['🚀 Deploy Model', '📈 Predict', '📊 Status']]
 markup = ReplyKeyboardMarkup(keyboard, one_time_keyboard=False, resize_keyboard=True)
